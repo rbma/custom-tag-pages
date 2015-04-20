@@ -12,7 +12,7 @@ function changeStyles(){
 
 
 document.onload = function(){
-	changeStyles();
+	setTimeout(changeStyles, 2000);
 };
 
 

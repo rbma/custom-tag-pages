@@ -5,6 +5,7 @@
 
 function changeStyles(){
 	var tagPage = document.getElementById('page');
+	console.log('Loaded');
 	tagPage.classList.remove('tag-page');
 	tagPage.style.background = 'blue';
 }

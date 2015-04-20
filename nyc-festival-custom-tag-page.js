@@ -43,7 +43,15 @@ function changeStyles(){
 	});
 
 
+	// ------------------------------------------------
+	// Remove load more button
+	//
+
+	var loadmore = $('#loadmore');
+	loadmore.remove();
 	
+
+
 
 	
 }
